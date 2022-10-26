@@ -1,0 +1,86 @@
+/* font scaricati da incollare
+font-family: 'Libre Baskerville', serif;
+font-family: 'Noto Sans', sans-serif; */
+
+:root {
+    font-family: 'Noto Sans', sans-serif;
+    
+    
+}
+.header{
+           text-align: center;
+
+}
+.header hr {
+    border: 9;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: blue;
+
+}
+
+
+
+.header h3{
+    background-color: #fe9d9d;
+    font-size: 0.8em;
+    margin-block-start:0 ;
+    margin-block-end: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.header h3 strong {
+    font-weight: bolder;
+}
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 3em;
+    text-align: center;
+
+}
+figure {
+    display: block;
+    text-align: center;
+}
+img{
+    
+    border-radius:  10px 10px 10px 10px; 
+}
+
+figure > p { /* ho messo p perchè caption non me lo prendeva*/
+   color: rgb(0, 0, 0);
+   
+}
+#didascalia {
+    color: rgb(202, 212, 209);
+ }
+
+.featured {
+    color: rgb(208, 54, 54);
+    font-size: 1.4em;
+    margin-block-start: 0;
+    margin-block-end:0;
+    
+  
+}
+
+.ingredienti {
+    font-size: 1.5em;
+}
+.sottotitoli {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+li {
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.methods {
+    font-size: 1.8em;
+    font-weight: lighter;
+    
+}
