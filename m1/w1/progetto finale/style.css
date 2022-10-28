@@ -1,0 +1,287 @@
+/* IMPOSTAZIONI GENERALI 
+font 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+
+
+*{
+    font-family:'Open Sans', sans-serif ;
+    color: #393d41;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.65em; /* da mettere a tutti */
+    
+    
+    
+    
+}
+
+/* HEADER */
+#header{
+        
+        background-color: black;
+        height: 90px;
+       
+        
+}
+#header img{
+    width: 160px;
+}
+
+
+/* MAIN */
+
+#main {
+    background-image: url(assets/images/banner.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+    background-position: center;
+}
+#main h1{
+    font-size: 2em;
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 10%;
+    line-height: 1.5em;
+}
+.paragrafo{
+    font-family: 'Open Sans', sans-serif ;
+    color: rgb(172, 172, 172);
+    line-height: 1.65em; 
+    /* nono capisco perche se lo metto generale non me lo prende
+     */
+
+}
+
+button{
+    color: white;
+    background-color: #e22d0e;
+    border-radius: 10px;
+    font-family:'Montserrat', sans-serif ;
+    padding: 5px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    width: 150px;
+    border: none;
+}
+/* animazione
+     */
+button:hover{
+    background-color: black;
+}
+.sezione {
+    padding: 20px;
+   
+}
+.sezione h3  {
+    font-family: 'Open Sans', sans-serif;
+    color: #25a2c3;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 1.3em;
+}
+.sezione p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65em;
+}
+
+#cerchio img{
+    width: 50%;
+    border-radius: 200px;
+}
+/* animazione
+     */
+#cerchio img:hover{
+    border-radius: 0px;
+    
+}
+ /* PARTE ARANCIONE
+     */
+
+      /* PRIMA PROVA NON RIUSCITA
+     
+.sezioneorange{
+    background-color: #D45040 ;
+    
+    text-align: center;
+    text-decoration: none;
+    
+    
+}
+.sezioneorange h3 {
+    color: white;
+    font-size:2em ;
+    font-weight: bold;
+    line-height: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.sezioneorange p {
+    color: white;
+    font-size: 1.2rem;
+    padding-bottom: 0px;
+    font-style: italic;
+    font-weight: normal ;
+    margin: 0;
+} */
+
+/*seconda prova */
+#secondaprova{
+    background-color: #e22d0e ;
+    text-align: center;
+    text-decoration: none;
+    
+}
+#secondaprova h3 {
+    color: white;
+    font-size:2em ;
+    font-weight: bold;
+    line-height: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+      /* padding
+    padding: 40px, 20px, 20px, 20px;*/
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+#secondaprova p {
+    color: white;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: normal ;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 40px;
+}
+#secondaprova h4 {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 20px;}
+
+
+    #secondaprova h5{
+        color: white;
+    font-size: 0.6rem;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 20px;
+    }
+/* tanto questo non me l ha preso
+.piccolo {
+    font-size: 0.5px;
+} /*
+
+/* modificare il testo
+
+    
+.sezioneorange i{
+    font-style: italic;
+    color: white;
+    font-size: 1.2rem;}*/
+
+     
+
+ /* modificare il testo
+#italic p {
+    font-style: italic;
+    color: white;
+    font-size: 1.2rem;
+}
+.sezioneorange p{
+font-style: italic;}  
+
+
+*/
+
+
+.conteiner{
+    text-align: center;
+}
+.sezionebarrata{
+    margin: 20px;
+    border: solid rgb(234, 234, 234) 0.2px;
+    margin: 0, 20px, 20px, 20px;
+}
+.sezionebarrata p{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65em;
+   
+}
+img{
+    width: 100%;}
+
+    img:active {
+        color: rosso;}
+
+.sezionebarrata h3, .sezionebarrata p{
+   padding-left: 40px;
+   padding-right: 40px;
+   padding-bottom: 40px;
+
+}
+
+.sezionebarrata h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #25a2c3;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 1.3em;
+}
+
+
+  
+
+
+        
+
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+
+.footer{
+    background-color:  #25a2c3 ;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;}
+
+    .footer h4{
+    color: white;
+    font-size:1.5em; ;
+    font-weight: bold;
+    margin: 20px;
+    line-height: 1.5em;
+    font-family: 'Open Sans', sans-serif; }
+
+    .footer p, a, address {
+        color: white;
+        margin: 5px;
+        }
+    .footer hr{
+        width: 110px;
+    }
+/* non riesco a vedere le icone, cioè sono rettagoli sbarrati */
+    .fa-phone{
+        height: 3px;
+    }
+    /* unico che riesco a vedere */
+    fa-envelope {
+        height: 3px;
+        
+
+    }
+    .fa-arrow-up-left{
+        height: 2px;
+    }
+
+

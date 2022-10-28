@@ -7,6 +7,10 @@ font-family: 'Noto Sans', sans-serif; */
     
     
 }
+.body{
+    margin-left: 400px;
+    margin-right: 400px;
+}
 .header{
            text-align: center;
 
@@ -61,6 +65,7 @@ figure > p { /* ho messo p perchè caption non me lo prendeva*/
     font-size: 1.4em;
     margin-block-start: 0;
     margin-block-end:0;
+    text-align: center;
     
   
 }
