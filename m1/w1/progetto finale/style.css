@@ -273,15 +273,18 @@ img{
 /* non riesco a vedere le icone, cioè sono rettagoli sbarrati */
     .fa-phone{
         height: 3px;
+        color: white;
     }
     /* unico che riesco a vedere */
     fa-envelope {
         height: 3px;
+        color: white;
         
 
     }
     .fa-arrow-up-left{
         height: 2px;
+        color: white;
     }
 
 
