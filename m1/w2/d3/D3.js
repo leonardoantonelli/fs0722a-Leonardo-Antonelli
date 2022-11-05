@@ -38,11 +38,8 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-/* ESERCIZIO 7
-  Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
-  Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il loro valore, dal più alto al più basso.
-  Alla fine mostra il risultato in console.
-*/
+
+
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
