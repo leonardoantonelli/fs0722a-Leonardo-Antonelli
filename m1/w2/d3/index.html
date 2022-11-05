@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: rgb(206, 210, 210);
+
+        }
+        #divisore {
+            background-color: rgb(232, 83, 83);
+        }
+    </style>
+    <div>
+        <p id="divisore"> primo esercizio </p>
+        <p> Scrivi un algoritmo per trovare il più grande tra due numeri interi.</p>
+        <button onclick="Maggiore(a,b)"> inserisci numeri </button>
+        <p id="risultato"> risultato: </p>
+
+    </div>
+
+
+
+    <script src="D3.js">
+
+    </script>
+<script> /* ESERCIZIO 1
+ Scrivi un algoritmo per trovare il più grande tra due numeri interi.
+*/
+
+/*
+function inserisciNumero () 
+   {
+    let numero1=prompt ("inserisci un numero1");
+    let numero2=prompt ("inserisci un numero2");
+
+    if numero1 > numero2 
+    {
+
+  
+    document.getElementById("risultato").innerHTMLì="il primo numero è piu grande"}  
+
+    else {
+        document.getElementById("risultato").innerHTMLì="il secondo numero è piu grande"}  
+} 
+
+/* ESERCIZIO 1
+ Scrivi un algoritmo per trovare il più grande tra due numeri interi.
+*/
+function Maggiore(a,b) 
+{
+    if(a>b) 
+    return a;   
+    
+    
+    else if (b>a)
+    return b;
+    else if (a = b)
+    console.log ("i numeri sono uguali")
+}
+
+console.log("Domanda1")
+let x=4
+let y= 7
+let max;
+max=Maggiore(x,y)
+console.log("il numero maggiore è", max )
+
+/* ESERCIZIO 2
+  Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
+
+function diverso(a){
+    if (a != 5)
+    return "not equal"
+}
+console.log("Domanda2")
+let div
+div=diverso(a)
+console.log("not equal")*/
+var a= 5;
+var b;
+console.log(a!=b)
+if (a!=b) {
+    document.write("not equal")
+}
+
+
+
+
+
+
+
+ 
+
+ 
+
+</script>
+
+
+</body>
+</html>
