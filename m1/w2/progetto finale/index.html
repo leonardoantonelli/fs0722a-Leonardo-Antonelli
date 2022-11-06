@@ -10,35 +10,55 @@
 <body>
     
     <h1> la mia calcolatrice</h1> 
+<div class="aspetto">
+
 
     <div class="conteiner"> 
-        <input class="iput" type="text" id="numeri"> 
+        <input class="input" type="text" id="numeri"> 
     </div>
             <div class="fila"> 
 
             <div class="bottoni" data-simbolo="1" onclick="aggiungiCifra(this)">1</div>
             <div  class="bottoni" data-simbolo="2" onclick="aggiungiCifra(this)">2</div>
             <div class="bottoni"  class="bottoni"data-simbolo="3" onclick="aggiungiCifra(this)">3</div>
-            <div class="operazione" data-simbolo="+" onclick="aggiungiCifra(this)">-</div>
+            <div class="operazione" data-simbolo="+" onclick="aggiungiCifra(this)">+</div>
+            <div class="operazione" data-simbolo="(" onclick="aggiungiCifra(this)">(</div>
+            <div class="operazione" data-simbolo=")" onclick="aggiungiCifra(this)">)</div>
+
 
         </div>
+
         <div class="fila"> 
             <div class="bottoni" data-simbolo="4" onclick="aggiungiCifra(this)">4</div>
             <div class="bottoni" data-simbolo="5" onclick="aggiungiCifra(this)">5</div>
-            <div class="bottoni" data-simbolo="6" onclick="aggiungiCifra(this)">6</div> <div class="operazione" data-simbolo="-" onclick="aggiungiCifra(this)">+</div>
+            <div class="bottoni" data-simbolo="6" onclick="aggiungiCifra(this)">6</div>
+             <div class="operazione" data-simbolo="-"onclick="aggiungiCifra(this)">-</div>
+             <div class="operazione" data-simbolo="sin" onclick="seno(this)">sin</div>
+             <div class="operazione" data-simbolo="cos"onclick="aggiungiCifra(this)">cos</div>
+            
         </div>
+    
+
+
         <div class="fila"> 
             <div class="bottoni" data-simbolo="7" onclick="aggiungiCifra(this)">7</div>
             <div class="bottoni" data-simbolo="8" onclick="aggiungiCifra(this)">8</div>
             <div class="bottoni" data-simbolo="9" onclick="aggiungiCifra(this)">9</div>
-            <div class="operazione" data-simbolo="%" onclick="aggiungiCifra(this)">%</div>
+            <div class="operazione" data-simbolo="%" onclick="aggiungiCifra(this)">/</div>
+            <div class="operazione" data-simbolo="√"onclick="aggiungiCifra(this)"> √ </div>
+            <div class="operazione" data-simbolo="*"onclick="aggiungiCifra(this)"> * </div>
         </div>
+        
+        
         <div class="fila">
              <div class="bottoni" data-simbolo="C" onclick="cancella(this)"> C </div>
             <div class="bottoni" data-simbolo="0" onclick="aggiungiCifra(this)">0</div>
-            <div class="uguale" data-simbolo="=" onclick="tot(this)">=</div>
+            <div class="bottoni" data-simbolo="." onclick="aggiungiCifra(this)">.</div>            
             <div class="operazione" data-simbolo="*" onclick="aggiungiCifra(this)">X</div>
+            <div class="uguale" data-simbolo="=" onclick="tot(this)">=</div>
         </div>
+    
+
        
            
             
@@ -91,8 +111,15 @@ function aggiungiCifra(elemento) {
                 let numeri = document.getElementById('numeri');
 
             document.getElementById("numeri").value = "";} 
-            
+           /* funzione radice quadrata 
+                function seno(){
+                    Math.sqrt(value);
+                }
+                */
 
+   /* funzione seno 
+response.write "Il sin("&valore&") è -> " & round(sin(valore),2)
+response.write "*/
 
         function isSymbol(s){
             let simboli = ['x','/','+','-'];

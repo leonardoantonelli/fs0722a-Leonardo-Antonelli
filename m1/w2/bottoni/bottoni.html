@@ -52,3 +52,156 @@
     </script>
 </body>
 </html>
+<!--
+
+    </div>
+
+    <div class="content">
+        
+        <input type="text"name="display"id="operazioni"readonly="readonly"class="display">
+    </div>
+    
+    
+
+
+   
+    
+    
+    
+    <div class="content">
+        <div class="content"><input type="submit"id="7"value="7"onclick="n(this.id)"class="tasto"><input type="submit"id="8"value="8"onclick="n(this.id)"class="tasto"><input type="submit"id="9"value="9"onclick="n(this.id)"class="tasto"><input type="submit"id="/"value="/"onclick="n(this.id)"class="tasto"></div><div class="content"><input type="submit"id="4"value="4"onclick="n(this.id)"class="tasto"><input type="submit"id="5"value="5"onclick="n(this.id)"class="tasto"><input type="submit"id="6"value="6"onclick="n(this.id)"class="tasto"><input type="submit"id="*"value="X"onclick="n(this.id)"class="tasto"></div><div class="content"><input type="submit"id="1"value="1"onclick="n(this.id)"class="tasto"><input type="submit"id="2"value="2"onclick="n(this.id)"class="tasto"><input type="submit"id="3"value="3"onclick="n(this.id)"class="tasto"><input type="submit"id="-"value="-"onclick="n(this.id)"class="tasto"></div><div class="content"><input type="submit"value="C"onclick="cancella()"class="tasto"><input type="submit"id="0"value="0"onclick="n(this.id)"class="tasto"><input type="submit"id="."value="."onclick="n(this.id)"class="tasto"><input type="submit"id="+"value="+"onclick="n(this.id)"class="tasto"></div><div class="content"><button value="="onclick="operazione()"class="uguale tasto">=</button></div></div> 
+
+    HTML
+Notiamo inoltre che, all’evento onclick per i tasti, abbiamo inserito n(this.id), in questo modo infatti recuperiamo in automatico l’id che è dichiarato in ciascun input. Mentre all’evento onclick di button assegniamo la funzione operazione() che creeremo in JavaScript.
+
+Realizziamo poi il foglio di stile.
+
+.content {
+            margin-left: 2px;
+        }
+.tasto {
+            background-color: #a5cff3 ;
+            color: #175c97;
+            font-size: 22pt;
+            border: none;
+            margin: 4px 2px;
+            height: 40px;
+	    width: 46px;
+        }
+.display {
+            background: none;
+            color: #175c97;
+            font-size: 24pt;
+            border: #175c97 solid 2px;
+            margin: 4px 2px;
+            width: 204px;
+            height: 40px;            
+        }
+.uguale {
+            width: 208px;
+        }
+CSS
+Chiaramente potete personalizzare con la formattazione desiderata la vostra calcolatrice con JavaScript.
+
+Infine implementiamo il codice JavaScript.
+
+Il codice è veramente molto semplice. Realizziamo la funzione n(dato) che di volta in volta prende i dati inseriti cliccando sui tasti in quanto utilizza il metodo getElementById().
+
+Poi realizziamo la funzione che compie le operazioni utilizzando l’istruzione eval che restituirà il risultato della nostra operazione.
+
+Infine realizziamo la funzione che semplicemente cancella il display.
+
+ function n(dato){ 
+   document.getElementById("operazioni").value += dato;
+}
+
+function operazione() { 
+document.getElementById("operazioni").value = eval(document.getElementById("operazioni").value); 
+}
+
+function cancella() { 
+ document.getElementById("operazioni").value = ""; 
+}
+JavaScript
+Come vi dicevo questo è un semplice metodo per creare una calcolatrice con JavaScript, potete trovare tante altre soluzioni.
+
+Lezione precedente: validare un form con JavaScript
+Lezione successiva: array in JavaScript
+Alcuni link utili
+Template responsive con html
+
+Css Responsive
+
+Come trovare immagini per il sito web
+
+Quali colori scegliere per un sito web
+
+Quali font scegliere per un sito web
+
+Form in html
+
+Tag strong
+
+Collegamenti interni ad una pagina web
+
+ getElementById, manuale javascript
+Show Comments 
+Share Article:     
+https://www.codingcreativo.it/calcolatrice-con-javascript/
+You might also like
+Progetti JavaScript
+Progetti JavaScript
+27 Ottobre 2022
+To do list in JavaScript
+To do list in JavaScript
+27 Ottobre 2022
+slice in JavaScript
+slice in JavaScript
+25 Ottobre 2022
+Other stories
+Numeri primi in Python
+10 Ottobre 2019Next Story
+Python list
+10 Ottobre 2019Previous Story
+Indici Tutorial
+Indice Tutorial Scratch 3.0
+Indice Tutorial Python
+Indice Tutorial JavaScript
+Indice Tutorial linguaggio C
+Indice Tutorial linguaggio C++
+Indice Tutorial CSS3
+Indice Tutorial HTML
+Indice Tutorial jQuery
+Indice Tutorial Algobuild
+Indice Tutorial Reti di Computer
+Ultimi Posts
+Generatore di frasi random
+4 Novembre 2022
+Progetti JavaScript
+27 Ottobre 2022
+To do list in JavaScript
+27 Ottobre 2022
+Scratch
+Coding
+22 Maggio 2021
+Gioco di macchine con Scratch
+16 Maggio 2021
+Cruciverba con Scratch
+16 Maggio 2021
+Area di un triangolo rettangolo
+15 Aprile 2020
+Confronto tra numeri
+15 Aprile 2020
+
+
+
+
+
+
+<script></script>
+
+</body>
+
+
+
+</html>

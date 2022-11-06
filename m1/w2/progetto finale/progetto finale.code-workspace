@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../bottoni"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "progetto finale"
+	}
+}

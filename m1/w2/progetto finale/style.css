@@ -37,24 +37,28 @@ display: flex;
     justify-content: space-around;}
 .uguale {
     width: 208px;
-    background-color: #fc0707 ;
+    background-color: #2cfc07 ;
     color: #f1f1f1;
     font-size: 22pt;
     border: none;
     margin: 4px 2px;
     height: 40px;
-width: 46px;
+width: 106px;
 text-align: center;
-border-radius: 100%;
+border-radius: 30%;
 display: flex;
     align-items: center;
     justify-content: space-around;
 }
  .input{
     background-color: #d2d1d1;
-    width: 190px;
+    width: 290px;
 
  }
  .fila{
     display: flex;
+ }
+ .aspetto{
+    display: inline-block;
+    background-color: #175c97;
  }
