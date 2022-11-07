@@ -10,6 +10,11 @@ REGOLE
 /* ESERCIZIO 1
  Scrivi una funzione di nome "area", che riceve due parametri (l1, l2) e calcola l'area del rettangolo associato..
 */
+function area (numer1=11,numer2=12){
+    let potenza= (numer1 * numer2);
+    let result= (potenza / 2) 
+    console.log(result);
+}
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -18,6 +23,20 @@ REGOLE
  La funzione deve ritornare la somma dei due parametri, ma se il valore dei due parametri è il medesimo deve invece tornare
  la loro somma moltiplicata per tre.
 */
+function crazySum (n = 4, m = 3){
+
+    let somma = n + m;
+/* note uso if dvo aggiungere un ltro if ll interno per solo numeri interi  
+if ((a && b) &&(a>=0 && b>=0) */
+if (n == m) {
+    sommaif = somma * 3;
+    console.log(sommaif)
+    
+} else {
+    somma = somma
+    console.log(somma)}
+}
+crazySum()
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -26,6 +45,21 @@ REGOLE
  Deve inoltre tornare la differenza assoluta moltiplicata per tre qualora il numero fornito sia maggiore di 19.
 */
 
+/*vedi differenza assoluta aggiungere un altro if che differenza maggiore uguale a 0*/
+function crazyDiff(numero1,numero2) {
+    numero1= 50;
+    numero2=19;
+    let differenza= numero1-numero2;
+    if (differenza > 19) {
+    differenzaif = differenza * 3;
+    console.log(differenzaif)
+    
+} else {
+    differenza = differenza
+    console.log(differenza)}
+}
+crazyDiff()
+
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 4
@@ -33,6 +67,21 @@ REGOLE
  se n è uguale a 400.
 */
 
+/* da rivedere le bolenane
+function boundary(n) {
+    n = 21
+    if ( 20>n>100 ){
+        Boolean;
+        console.log(n)
+    
+    }
+    else {
+        Boolean= false;
+        console.log(n)
+    }
+}  boundary()
+
+*/
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 5
@@ -53,6 +102,7 @@ REGOLE
 /* ESERCIZIO 7
  Scrivi una funzione di nome "reverseString", il cui scopo è invertire una stringa fornita come parametro (es. "EPICODE" --> "EDOCIPE")
 */
+function reverseString ()
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
