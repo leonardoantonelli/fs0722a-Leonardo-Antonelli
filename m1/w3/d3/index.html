@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenitore">
+        <div>  
+    <input type="text" class="crea" placeholder="Cosa devi comprare?">
+    <button class="creaBtn">Aggiungi</button>
+    <p>Ricordati i sordi che non hai </p>
+
+    <ul class="lista">
+
+    </ul>
+</div>
+
+</div>
+
+<script src="java.js"> </script>
+<script>
+// mi creo i miei selettori dove andare a specare poi..
+
+
+let imput_spesa = document.querySelector('.crea');
+let list = document.querySelector('.lista');
+let add_button = document.querySelector('.creaBtn');
+ // creo l'array prodotti
+
+ let listaProdotti= [];
+// creo funzione per visulizzare for each
+
+function displayLista () {
+    list.innerHTML="";
+listaProdotti.forEach(function(item) {
+    // creo li come variabile
+    // con create element per far apparire in html quello che ho scritto
+    let li = document.createElement("li");
+    // sia uguale al mio elemento dell'array espreso nella funzione
+    li.innerHTML= item;
+    // lo inserisco nella lista con append child allinterno della variabile
+    list.appendChild(li);
+
+})
+} 
+//creo funzione per aggiungere alla lista
+function aggiugiProdotto(){
+    //prendo la mia lista e push quello che ho messo dell imput però sol oil valore
+    listaProdotti.push(imput_spesa.value)
+
+} displayLista ()
+
+//creo evento listener affinche scrivo il nome e poi lo visualizzo
+//quando clicco su botton creaBttn
+add_button.addEventListener("click",function (){
+    aggiugiProdotto();
+    displayLista();
+   
+} ) 
+// parte
+//function () {}
+
+li.addEventListener("click",function (){})
+
+
+
+
+</script>
+</body>
+</html>

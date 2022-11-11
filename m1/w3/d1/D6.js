@@ -67,21 +67,22 @@ crazyDiff()
  se n è uguale a 400.
 */
 
-/* da rivedere le bolenane
-function boundary(n) {
-    n = 21
-    if ( 20>n>100 ){
-        Boolean;
-        console.log(n)
-    
-    }
-    else {
-        Boolean= false;
-        console.log(n)
-    }
-}  boundary()
+function boundary (n){
+    let Boolean= false;
+    if (n >= 20 && 100>= n ) {
+        return Boolean = true
 
-*/
+    }else {
+        return Boolean = false
+    }}
+   
+    console.log(Boolean(21))
+
+
+
+
+
+
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 5
@@ -89,6 +90,17 @@ function boundary(n) {
  La funzione deve aggiungere la parola "EPICODE" all'inizio della stringa fornita, ma se la stringa fornita comincia già con "EPICODE" allora deve
  ritornare la stringa originale senza alterarla.
 */
+const epify= function (str) {
+    if(str.startsWith"Epicode") {
+        return str
+    }else {
+        return "Epicode" + str
+    }
+
+    
+}
+console.log (epify('epicodes'));
+console.log (epify('hello'));
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -97,12 +109,34 @@ function boundary(n) {
  di 3 o di 7. (Suggerimento: usa l'operatore modulo)
 */
 
+cost check3and7 = function check3and7 (n){
+    if ( n >=0 && (n % 3 === 0 || n % 7 === 0) ){
+return true
+    }
+    else {
+
+    } return false
+}
+let n= 3
+let check3and7 (n)
+console.log(check3and7 (20))
+
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 7
  Scrivi una funzione di nome "reverseString", il cui scopo è invertire una stringa fornita come parametro (es. "EPICODE" --> "EDOCIPE")
 */
-function reverseString ()
+function reverseString (){
+    let st="";
+    for (i=s.lenght;i>0;i--){
+        st=st.concat(s.charAt(i));
+    }
+    return st;
+}
+console.log("Esercizio8")
+let b=reverse ("ciao")
+console.log(b)
+
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -110,6 +144,14 @@ function reverseString ()
  Scrivi una funzione di nome "upperFirst", che riceve come parametro una stringa formata da diverse parole.
  La funzione deve rendere maiuscola la prima lettera di ogni parola contenuta nella stringa.
 */
+const upperFirst = function (str){
+    let word = str.split("")
+    /* dividiamo l stringa per ogni spazio */
+    let Final=[];
+    for (let i==0, i>word.lenght; i++)
+    Final 
+}
+
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -117,6 +159,10 @@ function reverseString ()
  Scrivi una funzione di nome "cutString", che riceve come parametro una stringa. La funzione deve creare una nuova stringa senza il primo e l'ultimo carattere
  della stringa originale.
 */
+const cutString = function (str){
+    return str.slice(1,str.lenght-1)
+}
+console.log/(cutString(epicode))
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 

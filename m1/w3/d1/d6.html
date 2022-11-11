@@ -26,20 +26,40 @@ area()
  la loro somma moltiplicata per tre.
 */
 
-/* note uso if */
 function crazySum (n = 4, m = 3){
 
-    let somma = n + m;
+let somma = n + m;
+/* note uso if dvo aggiungere un ltro if ll interno per solo numeri interi  
+if ((a && b) &&(a>=0 && b>=0) */
+if (n == m) {
+sommaif = somma * 3;
+console.log(sommaif)
+
+} else {
+somma = somma
+console.log(somma)}
+}
+crazySum()
+
+/* note uso if */
+function crazySum (n, m){
+
+   return n + m;
 /* note uso if */
 if (n == m) {
-    sommaif = somma * 3;
-    console.log(sommaif)
+    somma = somma * 3;
+    
     
 } else {
     somma = somma
-    console.log(somma)}
-}
-crazySum()
+    }
+} 
+console.log (crazySum(4,4))
+
+/* note uso if */
+
+
+
 
 /* ESERCIZIO 3
  Scrivi una funzione di nome "crazyDiff" che calcola la differenza assoluta tra un numero fornito come parametro e 19.
@@ -67,13 +87,23 @@ function crazyDiff(numero1,numero2) {
 }
 crazyDiff()
 
+function crazyDiff (num){
+    if(num>19){
+        return Math.abs (num - 19)*3
+    }
+    else{
+        return Math.abs  (num - 19)
+    }
+}
+console.log(crazyDiff(3,5))
+
 /* ESERCIZIO 4
  Scrivi una funzione di nome "boundary" che accetta un numero intero n come parametro, e ritorna true se n è compreso tra 20 e 100 (incluso) oppure
  se n è uguale a 400.
 */
 
 
-/* */
+/*  NOOOO
 function boundary(n) {
     n = 21
     if ( 20>n>100 ){
@@ -85,8 +115,55 @@ function boundary(n) {
         Boolean= false;
         console.log(n)
     }
-}  boundary()
+}  boundary()*/
 
+/* ESERCIZIO 6
+ Scrivi una funzione di nome "check3and7" che accetta un numero positivo come parametro. La funzione deve controllare che il parametro sia un multiplo
+ di 3 o di 7. (Suggerimento: usa l'operatore modulo)
+*/
+
+const check3and7 = function check3and7 (n){
+    if ( n >=0 && (n % 3 === 0 || n % 7 === 0) ){
+return true
+    }
+    else {
+
+    } return false
+}
+console.log(check3and7 (20))
+
+/* ESERCIZIO 7
+ Scrivi una funzione di nome "reverseString", il cui scopo è invertire una stringa fornita come parametro (es. "EPICODE" --> "EDOCIPE") /* 
+function reverseString (){
+    let st="";
+    for (i=s.lenght;i>0;i--){
+        st=st.concat(s.charAt(i));
+    }
+    return st;
+}
+console.log("Esercizio8");
+let b=reverse ("ciao");
+console.log(b);*/
+
+/* ESERCIZIO 9
+ Scrivi una funzione di nome "cutString", che riceve come parametro una stringa. La funzione deve creare una nuova stringa senza il primo e l'ultimo carattere
+ della stringa originale.
+*/
+const cutString = function (str){
+    return str.slice(1,-1)
+}
+console.log/(cutString("epicode"));
+
+
+/* ESERCIZIO 10
+ Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
+
+
+const giveMeRandom = function (n){
+
+}
+*/
+/* SCRIVI QUI LA TUA RISPOSTA */
 
     </script>
 </body>
