@@ -7,7 +7,7 @@ font-family: 'Noto Sans', sans-serif; */
     
     
 }
-.body{
+.main{
     margin-left: 400px;
     margin-right: 400px;
 }
@@ -20,6 +20,7 @@ font-family: 'Noto Sans', sans-serif; */
     margin-top: 0px;
     margin-bottom: 0px;
     color: blue;
+    border-top: 6px;
 
 }
 
@@ -39,7 +40,7 @@ font-family: 'Noto Sans', sans-serif; */
 }
 h1 {
     font-family: 'Libre Baskerville', serif;
-    font-size: 3em;
+    font-size: 2,5em;
     text-align: center;
 
 }
@@ -47,9 +48,11 @@ figure {
     display: block;
     text-align: center;
 }
-img{
+
+.main div img{
     
     border-radius:  10px 10px 10px 10px; 
+    height: 300px;
 }
 
 figure > p { /* ho messo p perchè caption non me lo prendeva*/
