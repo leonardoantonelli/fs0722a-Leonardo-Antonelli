@@ -1,0 +1,160 @@
+/* IMPOSTAZIONI GENERALI
+font-family: 'Poppins', sans-serif;
+font-family: 'Libre Baskerville', serif; */
+
+body {
+    background-image: url(sfondo.png);
+    
+}
+p{
+    font-family: 'Libre Baskerville', serif;
+}
+
+/* HEADER */
+#quadrato {
+    background: rgb(53,34,195);
+background: linear-gradient(0deg, rgba(53,34,195,1) 0%, rgba(113,160,252,1) 100%);
+    margin: 35px; /* senza ripetere top left bottom */
+    padding: 35px;
+    
+}
+#quadrato img{
+    width: 250px;
+    
+    
+}
+#quadrato h1{
+    font-size: 2em;
+    font-family:'Poppins', sans-serif;
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+#quadrato ul {
+    color: white;
+    margin: 10px;
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+
+}
+
+.fa-arrow-right{
+    height: 1px;
+}
+ul {
+    list-style-type: none;
+    }
+/* MAIN */
+
+.main{
+    background-color: rgb(243, 243, 245);
+    margin: 35px;
+    /* box-sizing: border-box; da rivedere */
+    padding: 25px;
+
+}
+
+.titolo {
+    font-family: 'Poppins', sans-serif ;
+    font-size: 3em;
+    margin: 10px;
+    ;
+    
+}
+
+.sottotitolo{
+    font-family: 'Poppins', sans-serif ;
+    font-size: 1em;
+    color: rgb(198, 198, 198);
+    margin: 10px;
+
+}
+p{
+    font-size: 15px;
+    margin: 10px;
+    
+}
+.table{
+    
+   
+}
+.table th{
+    background-color: rgb(92, 80, 247);
+    width: 100px;
+    height: 40px;
+    border: solid white 1px;
+    text-align: center;
+
+}
+.table td{
+    
+    height: 50px;
+    text-align: center;
+
+    border-bottom:  solid rgb(101, 101, 101) 1px;;
+    
+}
+.grigio{
+    weight: 200px;
+ 
+    background-color: rgb(212, 212, 212);
+}
+
+#primariga td{
+    border: solid 1px;
+
+
+    
+}
+.secondariga td{
+    border: solid 1px;
+}
+#video {
+    border-radius: 10px; 
+    width: 60;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  .novità{
+    font-family: 'Poppins', sans-serif ;
+    font-size: 2em;
+    color: rgb(37, 37, 37);
+    text-align: center;
+    padding: 20px;
+  /* da chiedere iò border interno */ 
+    
+
+  }
+.conteiner{
+    background-color: rgb(126, 126, 126);
+}
+button{
+    color: rgb(219, 219, 219);
+    background-color: blue;
+}
+form{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+}
+
+/*  
+    li::marker {margin: 30px;
+    da rivedere come spostare puntini */
+
+    
+
+
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
