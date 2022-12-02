@@ -4,6 +4,7 @@ font-family: 'Libre Baskerville', serif; */
 
 body {
     background-image: url(sfondo.png);
+    line-height: 1.5;
     
 }
 p{
@@ -11,15 +12,20 @@ p{
 }
 
 /* HEADER */
+header{
+    text-align: center;
+}
 #quadrato {
     background: rgb(53,34,195);
 background: linear-gradient(0deg, rgba(53,34,195,1) 0%, rgba(113,160,252,1) 100%);
     margin: 35px; /* senza ripetere top left bottom */
     padding: 35px;
     
+    
 }
 #quadrato img{
     width: 250px;
+    
     
     
 }
