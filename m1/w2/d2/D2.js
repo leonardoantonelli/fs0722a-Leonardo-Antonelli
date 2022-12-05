@@ -20,7 +20,11 @@ let stringa= "ciao"
 let boleoano= true
 let boleoano2= false
 // variabile undifinf la riconsoco perchè è una variabile che non descrive nulla
+ let= null 
+ // è una variabile a cui non assegno nulla, javascript da null
 
+ let= undifind 
+ // è una variabile creata ma ancora non ho collegato il suo valore
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 2
@@ -76,6 +80,7 @@ let name1= "jhon"
 let name2= "John"
 let confronto= name1 === name2
 console.log(confronto)
-let confronto2= name1.toLowerCase == name2.toLowerCase
-console.log(confronto)
-console.log(name2.toUpperCase)
+let confronto2= name1 === name2.toLowerCase()
+
+console.log(name2.toLowerCase())
+console.log(confronto2)
