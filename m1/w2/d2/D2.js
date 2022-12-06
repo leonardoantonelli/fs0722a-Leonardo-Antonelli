@@ -40,13 +40,15 @@ let boleoano2= false
 
 let n1 = 12
 let n2 = 20
-let somma= n1 + n2
+let somma= n1 + n2 
+
+
 
 console.log("la somma di questi numeri è:" + somma)
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
-/* SCRIVI QUI LA TUA RISPOSTA */
+
 let x=12
 console.log(x)
 
