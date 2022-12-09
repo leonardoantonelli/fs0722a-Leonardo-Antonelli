@@ -1,0 +1,42 @@
+#primologo{
+background-color: rgb(80, 80, 108);
+height: 8vh;
+align-items: center;}
+
+#primologo img{
+    height: 5vh;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+ .header{
+    background-color: rgb(41, 33, 61);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+ }
+ .header div {
+    margin-left: 5%;
+    margin-right: 5%;
+ }
+ .header div a {
+    margin-left: 10px;
+    color:white
+ }
+
+ #banner{
+    background-color: orangered;
+    height: 20px;
+    margin: 20px 5% 20px 5%;
+ }
+ .banner2{
+
+ }
+ .banner2 img{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.banner2 h4{
+    color:rgb(152, 43, 43);
+   font-size: large;
+    
+}
