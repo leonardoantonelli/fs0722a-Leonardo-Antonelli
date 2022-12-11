@@ -1,7 +1,11 @@
-#primologo{
-background-color: rgb(80, 80, 108);
-height: 8vh;
-align-items: center;}
+#main{
+    background-color: rgb(215, 215, 255);
+}
+  #primologo{
+background-color:rgb(41, 33, 61);
+height: 15vh;
+align-items: center;
+display: flex;}
 
 #primologo img{
     height: 5vh;
@@ -9,7 +13,7 @@ align-items: center;}
    margin-right: 5%;
 }
  .header{
-    background-color: rgb(41, 33, 61);
+    background-color:#232F3E;
     padding-top: 5px;
     padding-bottom: 5px;
     
@@ -28,15 +32,114 @@ align-items: center;}
     height: 20px;
     margin: 20px 5% 20px 5%;
  }
+ #banner h4{
+    text-align: center;
+    color: wheat;
+ }
  .banner2{
+    
+    height: 100%;
 
  }
- .banner2 img{
+
+
+.banner2 h4{
+    color:rgb(255, 255, 255);
+   font-size: 30px;
+   background-image: url('bg-image.png');
+ background-repeat: no-repeat;
+ background-size: cover;
+  text-align: center;
+    height: 25vh;
     margin-left: 5%;
     margin-right: 5%;
+    align-items: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
-.banner2 h4{
-    color:rgb(152, 43, 43);
-   font-size: large;
+.banner2 p{
+    color:rgb(255, 255, 255);
+   font-size: 10px;
+   
+   
+}
+
+.bannerbianco{
+    background-color: white;
     
+   margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
 }
+.testo{display: flex;}
+
+.bannerbianco h4{
+color: black;
+margin-left: 2%;
+padding-top: 2%;}
+
+.bannerbianco p{
+    color: blue;
+    margin-left: 2%;
+    padding-top: 2%;
+}
+
+#slider{
+	justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+ 
+ #slider li{
+	margin-left: 2vh;
+	width: 120px;
+    display: inline-block;
+    vertical-align: top;
+	object-fit: cover;}
+    #slider li img{
+        height: 250px;
+        margin-top: 5%;
+        border-radius: 7%;
+        object-fit: cover;
+       
+    }
+    .conteiner{
+        height: 300px;
+        margin: 2%;
+        text-align: center;
+    } 
+
+    .conteiner img{
+        width: 100%;
+  height:100%;
+        object-fit: cover;
+
+    }
+    .conteiner p{
+        margin-top: 3px;
+        ;
+    }
+    .backtotop{
+        background-color: rgb(135, 135, 163);
+    }
+    .backtotop a{
+        text-align: center;
+        height: 30px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+    .footer img{
+        height: 8vh;
+       
+    }
+    .footer{
+         text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        height: 100px;
+        background-color: #232F3E;
+    }
