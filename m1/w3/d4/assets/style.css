@@ -1,0 +1,16 @@
+
+body{
+    background-color: rgb(188, 188, 236);
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.contenitore{
+    text-align: center;
+    background-color: rgb(253, 253, 253);
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
