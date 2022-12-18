@@ -27,16 +27,16 @@ console.log("esercizio a è venuto:" , sum(12,2) )
 
 /* ESERCIZIO B
   Crea una variabile chiamata "random" e assegnaci un numero casuale tra 0 e 20 (deve essere generato dinamicamente a ogni esecuzione).
-
+*/
 let random = function (){
 const arr =[];
 arr.push(Math.floor(Math.random()*20))
 return arr
 
 }
-console.log(random())
+console.log("esercizio b è venuto:" ,random())
 
-*/
+
 /* ESERCIZIO C
   Crea una variabile chiamata "me" e assegnaci un oggetto contenente le seguenti proprietà: name = il tuo nome, surname = il tuo cognome, age = la tua età.
 */
@@ -46,7 +46,7 @@ let me = {
   surname :"antonelli",
   age: 24,
 }
-console.log(me)
+console.log("esercizio c è venuto:" ,me)
 
 
 /* ESERCIZIO D
@@ -421,15 +421,21 @@ console.log("L'esercizio 13 è venuto:",countMovies(movies));
 /* ESERCIZIO 15
   Scrivi una funzione chiamata "onlyInLastMillennium" che ritorna solamente i film prodotto nel millennio scorso contenuti nell'array "movies" fornito. */
 
-let onlyInLastMillennium = movies.filter(movies =>movies.Year !== 2005,2012 )
-//movies.every ma non so per il range di data
+let onlyInLastMillennium = movies.filter(movie => movies.Year>= 2000)
+
+/*
+let onlyInLastMillennium = function(){
+ return movies.Year >= 2000
+
+console.log("L'esercizio 15 è venuto:",onlyInLastMillennium(movies));
+}*/
 
 /* ESERCIZIO 16
   Scrivi una funzione chiamata "sumAllTheYears" che ritorna la somma di tutti gli anni in cui sono stati prodotti i film contenuti nell'array "movies" fornito.
-*/
+
 let sumAllTheYears = movies.Year
 console.log(sumAllTheYears)
-
+*/
 
   
   
