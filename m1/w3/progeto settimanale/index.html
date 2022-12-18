@@ -228,7 +228,22 @@ function isThisAnEmail (){
 
   let now= new Date()
 let whatDayIsIt = now.getDay()
-console.log( whatDayIsIt)
+console.log("esercizio 7 è venuto:", whatDayIsIt)
+
+
+/* ESERCIZIO 8
+  Scrivi una funzione chiamata "rollTheDices" che riceve un numero come parametro.
+  Deve invocare la precedente funzione dice() il numero di volte specificato nel parametro, e deve tornare un oggetto contenente una proprietà "sum":
+  il suo valore deve rappresentare il totale di tutti i valori estratti con le invocazioni di dice().
+  L'oggetto ritornato deve anche contenere una proprietà "values", contenente un array con tutti i valori estratti dalle invocazioni di dice().
+
+  Example:
+  rollTheDices(3) => ritorna {
+      sum: 10
+      values: [3, 3, 4]
+  }
+*/
+
 
 /* ESERCIZIO 9 V
   Scrivi una funzione chiamata "howManyDays" che riceve una data come parametro e ritorna il numero di giorni trascorsi da tale data.*/
@@ -236,25 +251,41 @@ console.log( whatDayIsIt)
 
     let giorno= new Date()
  let howManyDays = now.getDate()
- console.log(howManyDays)
+ console.log("esercizio 9 è venuto:",howManyDays)
 
- /* ESERCIZIO 10 
-  Scrivi una funzione chiamata "isTodayMyBirthday" che deve ritornare true se oggi è il tuo compleanno, falso negli altri casi.
+ /* ESERCIZIO 10 V
+  Scrivi una funzione chiamata "isTodayMyBirthday" che deve ritornare true se oggi è il tuo compleanno, falso negli altri casi.*/
 
   let isTodayMyBirthday = function(){
     let dataAtuale = new Date
-    let myB = new  Date (1998,03,23)
-    if (dataAtuale=  myB ) {
-        myB = true
+    let myB = new Date (2023,03,23)
+    if (dataAtuale===  myB ) {
+        return true
 
-    } else {myB = false
+    } else {return false
 
     }
 
   }
-  console.log(isTodayMyBirthday)
+  console.log("esercizio 10 è venuto:",isTodayMyBirthday())
+
+
+  /* ESERCIZIO 11
+  Scrivi una funzione chiamata "deleteProp" che riceve un oggetto e una stringa come parametri; deve ritornare l'oggetto fornito dopo aver eliminato
+  in esso la proprietà chiamata come la stringa passata come secondo parametro.
 */
-  /* ESERCIZIO 14
+
+/* ESERCIZIO 12
+  Scrivi una funzione chiamata "newestMovie" che trova il film più recente nell'array "movies" fornito.
+*/
+
+// lo trovo con find 
+
+
+
+
+
+  /* ESERCIZIO 14 V
   Scrivi una funzione chiamata "onlyTheYears" che crea un array con solamente gli anni di uscita dei film contenuti nell'array "movies" fornito.
 */
 //utilizzo tasto sort
@@ -376,20 +407,20 @@ const movies = [
   },
 ]
 
-for (let i = 0; i < movies.length; i++){
-  moviesAnni[i] = movies[Year];
+/*venuto ma non mi restituisce un array */
+let anni = movies.filter(movies => console.log("esercizio 14 è venuto:",movies.Year))
+
+/* ESERCIZIO 13 V
+  Scrivi una funzione chiamata countMovies che ritorna il numero di film contenuti nell'array "movies" fornito.
+*/
+function countMovies(){
+ return movies.length
 }
-
-console.log( moviesAnni); 
-
-
-
+console.log("L'esercizio 13 è venuto:",countMovies(movies));
 
 /* ESERCIZIO 15
-  Scrivi una funzione chiamata "onlyInLastMillennium" che ritorna solamente i film prodotto nel millennio scorso contenuti nell'array "movies" fornito.
+  Scrivi una funzione chiamata "onlyInLastMillennium" che ritorna solamente i film prodotto nel millennio scorso contenuti nell'array "movies" fornito. */
 
-//find ma mi restuusce solo il primo valore
-//movies.filter ma non so per il range di data*/
 let onlyInLastMillennium = movies.filter(movies =>movies.Year !== 2005,2012 )
 //movies.every ma non so per il range di data
 
