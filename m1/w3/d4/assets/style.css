@@ -5,6 +5,7 @@ body{
     text-align: center;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .contenitore{
@@ -13,4 +14,32 @@ body{
     width: 300px;
     display: flex;
     align-items: center;
+}
+
+.newDiv{
+    display: flex;
+    align-items: center;
+
+}
+.listConteiner{
+    display: flex;
+    align-items: center;
+    background-color: rgb(249, 249, 243);
+    width: 300px;
+    height: 40px;
+    justify-content: space-around;
+}
+
+
+.delete{
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+    width: 60px;
+}
+
+.selected{
+    background-color: brown;
+
+
 }
