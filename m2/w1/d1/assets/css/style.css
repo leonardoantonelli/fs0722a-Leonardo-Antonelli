@@ -28,6 +28,8 @@ header div img {
 }
 header nav ul {
     margin: 0;
+    display: flex;
+    justify-content: space-around;
 }
 header nav li {
     list-style: none;
@@ -144,7 +146,7 @@ button {
 }
 
 /* ELEMENTI NELL' ASIDE */
-aside h2 {
+#asideH2 {
     text-align: center;
     color: #333;
     font-size: 2rem;
@@ -178,3 +180,81 @@ footer {
 footer a {
     color: fuchsia;
 }
+@media screen and (min-width: 768px) {
+    /* display tablet   */
+    header nav ul {
+        margin: 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
+  }
+
+  @media screen and (min-width: 760px ) {
+    /* versione display tablet */ 
+
+    header nav ul{
+     width: 400px;
+     }
+     header nav {
+         display: flex;
+         justify-content: center;
+     
+     
+     }
+     #table{
+         display: flex;
+         justify-content: center;
+        }
+    }
+
+  @media screen and (min-width: 1200px ) {
+    /* versione display pc   */
+    /* header  */
+    header {
+        display: flex;
+        flex-direction: row;
+        height: 80px;
+        align-items: center;
+        padding: 0;}
+    header div{
+        display: flex; 
+        align-items: center;
+        margin-right: 358px;
+    }
+     header div img{
+        margin-bottom: 0px;
+    }
+    header div p{
+        margin-bottom: 0px;
+        width: 273px;
+    }
+    header nav li a{
+        margin-left: 20px;
+    }
+    /* tabella da fare */
+   #table{
+    display: flex;
+    justify-content: center;
+   }
+
+
+    /* main video e articolo  */
+    iframe {
+        width: 50%;
+    }
+    #bloccoMobile{
+        display: flex;
+       
+    }
+    #bloccoMobile > section{
+       border-radius: 30px;
+    }
+    
+    aside{
+        display: flex;
+    }
+   
+    aside div {
+       width: 100%;
+
+    }}
