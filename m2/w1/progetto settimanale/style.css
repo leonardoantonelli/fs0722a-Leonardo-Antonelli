@@ -1,0 +1,413 @@
+/*regole generali
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    color: #ffc017;
+    color: #191919;
+    color: #1a8917;
+}
+*/
+
+*{
+   line-height: 1.65em; /* da mettere a tutti */
+   
+  
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* STRUTTURA HEADER */
+.header{
+background-color: #ffc017;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 70px;
+border-bottom: 1px solid black;
+position: sticky;
+ top: 0;
+transition: all .5s ease-in-out
+
+
+}
+#main {
+    padding: 30px 0 30px 11px;
+    background: none repeat scroll 0 0 #FFFFFF;}
+.header.fixed {
+ background-color: #ffffff; 
+ position: sticky;
+ top: 0;
+ 
+  
+}
+.headernuovo{
+    background-color: #ffffff; 
+    position: sticky;
+    top: 0;
+       
+
+}
+
+
+header div{
+   margin-left: 5%;
+margin-right: 5%; 
+}
+.tasti{
+    display: flex;
+    width: 450px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.buttonheader{
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+/* STRUTTURA HEADER SU MOBILE */
+
+@media screen and (max-width: 600px) {
+    
+    .tasti h3{display: none;
+      }
+    
+  }
+
+  .trending{
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    margin-top: 2%;
+  }
+  .trending h3{
+    font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #191919;
+       
+  }
+.contenitore1{
+    background-color: #ffc017;
+    justify-content: space-between;
+    display: flex;
+
+}
+.contenitore1 h1,.contenitore1 h3, .contenitore1 button{
+    margin-left: 8%;
+    margin-top: 5%;
+
+}
+.contenitore1 div{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.contenitore1 h1{
+    font-size: 6em;
+    font-family: 'Spectral', serif;
+}
+.contenitore1 h3{
+    font-size: 1.3em;
+    color: #2d2d2d;
+    width: 60%;
+     ;
+}
+#startreading{
+width: 180px;
+ background-color: #191919;
+color: white;
+font-size: 1.1em;
+border-radius: 50px;
+border:none
+
+}
+/* STRUTTURA CONTENITORE 1 SU MOBILE */
+
+@media screen and (max-width: 600px) {
+    
+   .extra svg{display: none;
+      }
+
+   .contenitore1 h1{
+    font-size: 4em;
+    width: 500px
+     ;
+   }   
+   .contenitore1 h3{
+    width: 70%
+   }
+  }
+
+
+/* STRUTTURA CARD ARTICOLO */
+
+.card{
+    display: flex;
+    flex-basis: 25%;
+    margin-top: 2% ;
+    margin-left: 4%; 
+    margin-right: 4%;
+    width: 100%;
+
+}
+
+.card div h1{
+    color: rgb(181, 180, 180);
+font-size: 2em;}
+
+.colonna{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.utente{
+    display: flex;
+    align-items: center
+}
+.utenteimg{
+    border-radius: 100%;
+    margin-right: 10px;
+    height: 50%;
+
+}
+.utente p{
+    font-size: 0.8em;
+}
+.titoloArticolo {
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+.dataArticolo{
+    color: #7a7a7a;
+    font-size: 0.6em;
+    margin-top: 20px;
+    
+}
+
+/* STRUTTURA CONTENITORE DELLE CARD  */
+.fila{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    justify-content: space-evenly;
+}
+
+
+@media screen and (max-width: 600px)  {
+    .fila{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+/* STRUTTURA DELL'ARTICOLO */
+.fa-bookmark{
+    display:block;
+   
+}
+.articol > img{
+    height: 140px;
+}
+
+/* STRUTTURA MAIN */ 
+
+
+
+.contenitoreData{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.data{
+    
+    display: flex;
+    align-items: center;
+
+}
+
+.articol p{
+    font-size: 0.8em}
+    #immagineArticolo{
+        height: 20px;
+    }
+#dateArticol{
+    font-size: 0.8em;
+    margin-top: 1%;
+    margin-bottom: 1%;}
+    
+    .dataArticolosub {
+        color: #7a7a7a;
+        font-size: 0.6em;
+        width: 100px;
+        
+}
+.utentebuttn{
+height: 20px;
+color: rgb(144, 144, 144);
+background-color: rgb(238, 238, 238);
+border: none;
+border-radius: 30px;
+font-size: 0.6em;
+}
+
+.articolTest{
+  
+    margin-left: 3%;
+    margin-right: 3%;
+    
+
+
+}
+
+/* STRUTTURA DEL CONTENITORE DELL'ARTICOLO */
+.articol{
+    display: flex ;
+    margin-left: 6%;
+    
+    margin-top: 3%;
+    
+}
+.contenitoreData{
+    margin-right: 6%;
+}
+
+/* STRUTTURA DEL DISCOVER */
+
+
+.fila{
+    display: flex;
+    flex-basis: 33%;
+    width: 1200px;
+    justify-content: space-evenly;
+}
+.bottonidiscover{
+    border: 1px solid rgb(195, 194, 194);
+    color: #7a7a7a;
+    font-size: 0.8em;
+    height: 100%;
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+
+}
+
+/* STRUTTURA DEL MAIN*/
+.spazioArticoli{
+    width: 80%;
+    margin-right: 27px;
+}
+main{
+    display: flex;
+}
+
+
+
+/* STRUTTURA DEL DISCOVER*/.contenitoreDiscor{
+  
+    margin-top: 3%;
+    margin-left: 53px;
+    margin-right: 198px;
+    width: 487px;
+}
+
+.filaDiscover{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 100%;}
+ 
+    .contenitoreDiscor h3{
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #191919;
+        margin-top: 2%;
+        
+
+    }
+    .footer a{
+        text-decoration: none;
+        color: #7a7a7a;
+        font-size: 0.8em;
+    }
+   
+
+
+    
+    @media screen and (max-width: 800px){
+        main{
+            display: flex;
+            
+            flex-direction: column-reverse;
+        
+        }
+        .contenitoreDiscor {
+            margin-top: 3%;
+            margin-left: 53px;
+            margin-right: 198px;
+            width: 597px;}
+            .articol {
+                display: flex;
+                margin-left: 6%;
+                margin-top: 3%;
+                width: 595px;}
+
+        .fila{
+            display: flex;
+            flex-wrap: wrap;
+            width: 770px;
+            }
+           .card{
+            flex-basis: 40%;
+
+           }
+        }
+
+    @media screen and (max-width: 600px) {
+        main{
+            display: flex;
+            
+            flex-direction: column-reverse;
+        
+        }
+        .articol {
+            margin-right: 3%;
+            width: 451px;}
+
+       .spazioArticoli {
+        width: 100%;
+    }
+
+       .contenitoreDiscor {
+        width: 100%;}
+        .filaDiscover{
+            width: 80%;}
+            .fila{
+                width: 425px;
+                margin-left: 5%;
+            }
+            .trending {
+                margin-left: 7%;
+            }
+                     
+    }
+  
