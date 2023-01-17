@@ -320,12 +320,15 @@ main{
 
 
 
-/* STRUTTURA DEL DISCOVER*/.contenitoreDiscor{
+/* STRUTTURA DEL DISCOVER*/
+.contenitoreDiscor{
   
     margin-top: 3%;
     margin-left: 53px;
     margin-right: 198px;
     width: 487px;
+    position: sticky;
+    top: 110px;
 }
 
 .filaDiscover{
@@ -364,7 +367,8 @@ main{
             margin-top: 3%;
             margin-left: 53px;
             margin-right: 198px;
-            width: 597px;}
+            width: 597px;
+        }
             .articol {
                 display: flex;
                 margin-left: 6%;
