@@ -44,10 +44,35 @@
   width: 100%;
 }
 
-img {
+.imgcard {
   width: 100%;
+  -webkit-animation: myanimcard 2s infinite;
+          animation: myanimcard 2s infinite;
 }
 
+@-webkit-keyframes myanimcard {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes myanimcard {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 .testimo h6 {
   color: #2B190F;
   font-size: 1.5rem;
@@ -67,6 +92,53 @@ img {
 }
 
 .colorb {
+  color: #F9E7E5;
+}
+
+#toggle-btn {
+  display: inline-block;
+  width: 43px;
+  height: 24px;
+  background-color: #F9E7E5;
+  background-size: 100%;
+  border-radius: 24px;
+  position: relative;
+  transition: all ease-in-out 0.4s; /* animati tutti gli elementi (all), accelerazione ease-in-out, durata 0.4 secondi */
+  cursor: pointer;
+}
+
+#toggle-btn::before {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: #2B190F;
+  border-radius: 50%;
+  left: 3px;
+  top: 3px;
+  content: "";
+  transition: all ease-in-out 0.4s;
+  z-index: 10;
+}
+
+#toggle-btn.toggle-btn--dark {
+  background-color: #F9E7E5;
+}
+
+#toggle-btn.toggle-btn--dark::before {
+  left: 22px;
+}
+
+.dark-mode {
+  background-color: #F9E7E5;
+  color: #2B190F;
+}
+.dark-mode h1, .dark-mode h4 {
+  color: #2B190F;
+}
+.dark-mode div.section2 {
+  background-color: #2B190F;
+}
+.dark-mode div.section2 h4, .dark-mode div.section2 h5, .dark-mode div.section2 p {
   color: #F9E7E5;
 }
 
@@ -101,8 +173,33 @@ section h4 {
 }
 .obj {
   width: 40%;
+  -webkit-animation: myanim 3s infinite;
+          animation: myanim 3s infinite;
 }
 
+@-webkit-keyframes myanim {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: translate(100%) rotate(-40deg);
+  }
+  100% {
+    transform: translate(0px) rotate(0deg);
+  }
+}
+
+@keyframes myanim {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: translate(100%) rotate(-40deg);
+  }
+  100% {
+    transform: translate(0px) rotate(0deg);
+  }
+}
 .sfondoanacardi {
   background-position-x: center;
   background-position-y: center;
