@@ -5,12 +5,14 @@ body{
     background-color: $marrone;
     text-transform: uppercase;
     line-height: 0.9em;
-} 
+}
+
+
 section{
   h1{
     font-size: 2rem;
     font-weight: 900;
-    letter-spacing: 0.1em;
+   
     color: $bianco; 
 }
 h4{
@@ -27,11 +29,16 @@ h4{
 .containersize{
     padding-top: 10px;
     display: flex;
-    height: 600px ;
+    height: 300px ;}
     
+    @media screen and (min-width: 768px) {
+      .containersize{
+        height: 400px
+    }
+  }    
 
-}    
 .obj{ width: 40%;
+  //transform: translate(0px, 70px) aggiungere animazione
     
     
 
@@ -46,6 +53,11 @@ h4{
    position: relative;
    top: -40px;
    }
+
+   @media screen and (min-width: 768px) {
+    .sfondoanacardi{
+      background-size: 80%;
+  } }
 
    .divisorio{
     width: 100%;
@@ -93,7 +105,6 @@ h4{
     text-align: center; 
     padding: 7px;
     color: $marrone;
-    
     
     line-height: .9em;
     letter-spacing: 0.00001mm;
