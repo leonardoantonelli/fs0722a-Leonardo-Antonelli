@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+.buttone {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  height: 8%;
+  width: 100%;
+  color: #2B190F;
+  font-size: 1.4rem;
+  font-weight: 800;
+  border: none;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.navbarmia {
+  background-color: 218;
+}
+
+.imglogo {
+  height: 55px;
+}
+
+.amia {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.cardmia {
+  width: 133px;
+}
+.cardmia img {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  padding: 0px 10px;
+  background-color: #2B190F;
+  text-transform: uppercase;
+  line-height: 0.9em;
+}
+
+section h1 {
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+section h4 {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #FFFFFF;
+}
+
+.containersize {
+  padding-top: 10px;
+  display: flex;
+  height: 600px;
+}
+
+.obj {
+  width: 40%;
+}
+
+.sfondoanacardi {
+  background-position-x: center;
+  background-position-y: center;
+  background-image: url("../img/home/sfondo.webp");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: -40px;
+}
+
+.divisorio {
+  width: 100%;
+}
+
+.section2 {
+  background-color: #F9E7E5;
+}
+.section2 h4 {
+  padding: 7px;
+  color: #2B190F;
+  font-weight: 600;
+  font-size: 3.2rem;
+  line-height: 0.9em;
+  letter-spacing: 0.00001mm;
+}
+
+.section2b {
+  width: 100%;
+}
+.section2b div {
+  width: 90%;
+}
+.section2b div img {
+  width: 100%;
+}
+
+.card-body {
+  font-size: 1.4em;
+  font-weight: 600;
+  line-height: 1em;
+  color: #2B190F;
+  margin-bottom: 50px;
+}
+.card-body h5 {
+  color: #2B190F;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+card-titlemiooo {
+  text-align: center;
+  padding: 7px;
+  color: #2B190F;
+  line-height: 0.9em;
+  letter-spacing: 0.00001mm;
+  letter-spacing: 0.1em;
+}/*# sourceMappingURL=style.css.map */
