@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+}
+.grigio {
+    background-color: rgb(37, 36, 36);
+    width: 90%;
+    border-radius: 20px;
+}
+
+
+.heightimg{
+    height: 10% !important;
+}
+
+nav img{
+    height: 50px;
+}

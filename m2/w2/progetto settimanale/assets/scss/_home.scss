@@ -38,11 +38,23 @@ h4{
   }    
 
 .obj{ width: 40%;
+  animation: myanim 3s infinite;
   //transform: translate(0px, 70px) aggiungere animazione
-    
-    
+    }
+@keyframes myanim {
+  0% {
+    transform: rotate(0deg);
+  } 
+  50%{
+    transform: translate(100%) rotate(-40deg)
+  }
+    100%{
+      transform: translate(00px) rotate(0deg)
 
-}
+    } } ;
+
+  
+
 .sfondoanacardi{
     
     background-position-x: center;
