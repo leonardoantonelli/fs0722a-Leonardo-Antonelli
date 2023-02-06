@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .cardmia{
     width: 133px;
     
@@ -26,3 +27,33 @@ img {
         transform: rotate(0deg)
   
       } } 
+=======
+.cardmia{
+    width: 133px;
+    
+   
+img {
+    width: 100%;}
+    
+}
+
+
+.imgcard {
+    width: 100%;
+    
+    animation: myanimcard 2s infinite;
+    //transform: translate(0px, 70px) aggiungere animazione
+      } 
+  
+  @keyframes myanimcard {
+    0% {
+      transform: rotate(0deg);
+    } 
+    50%{
+      transform: rotate(-3deg)
+    }
+      100%{
+        transform: rotate(0deg)
+  
+      } } 
+>>>>>>> 29b3b51984bad5d2ea44309442dd1ad681b5dcf3
